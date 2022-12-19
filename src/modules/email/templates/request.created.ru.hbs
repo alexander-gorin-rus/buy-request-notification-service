@@ -1,0 +1,21 @@
+<div>
+  <h2>
+    Привет! {{name}}
+  </h2>
+  <div>
+    <h1>Новый запрос был размещен</h1>
+    <div>
+      <b>tags:
+        <ul class="tags_list">
+          {{#each tags}}
+            <li>{{this}}</li>
+          {{/each}}
+        </ul>
+      </b>
+      <h3>{{description}}</h3>
+    </div>
+    <div>
+      Чтобы посмотреть перейдите на <a href="{{link}}">Ссылку</a>
+    </div>
+  </div>
+</div>
